@@ -1,0 +1,128 @@
+.nav-items {
+  color: white !important;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.indexbg {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./indexbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.regbg {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./regbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showbg {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./showbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blurback {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  top: 0;
+}
+
+.textbox {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.texthold {
+  display: inline-block;
+  margin-top: 16%;
+}
+
+.showhold {
+  display: inline-block;
+  margin-top: 5%;
+  width: 50%;
+}
+
+.reghold {
+  display: inline-block;
+  margin-top: 6%;
+  width: 35%;
+}
+
+.formblock {
+  text-align: left;
+  margin-top: 20px;
+}
+
+input {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+select {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+option {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+a {
+  color: #fff;
+}
+
+#right {
+  margin-left: 40px;
+}
+
+.navbar {
+  position: absolute !important;
+  width: 100vw !important;
+}
+
+thead td {
+  font-weight: 600 !important;
+  font-size: large !important;
+  width: 16em;
+}
+
+table td {
+  padding-top: 0.5em;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
